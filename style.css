@@ -1,0 +1,357 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #121220;
+    font-family: sans-serif;
+}
+
+@media (max-width: 650px){
+  #title{
+    font-size: 16px !important;
+  }
+  
+  .fa-search{
+    left: 83% !important;
+    font-size: 16px !important;
+  }
+  .fa-ellipsis-v{
+    left: 95% !important;
+    font-size: 16px !important;
+  }
+  #camera{
+    font-size: 16px !important;
+    
+  }
+  .s{
+    margin-left: 5rem !important;
+    font-size: 16px !important;
+  }
+  .c{
+   margin-left: 1rem !important;
+   
+   font-size: 16px !important;
+   
+  }
+  .ca{
+    margin-left: 6rem !important;
+    font-size: 16px !important;
+  }
+  .p{
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 1rem !important;
+  }
+  #cel{
+    top: 8rem !important;
+    left: 5rem !important;
+  }
+  #lu{
+    top: 13.5rem !important;
+    left: 5rem !important;
+  }
+  #ala{
+    top: 18.9rem !important;
+    left: 5rem !important;
+  }
+  #m{
+    top: 24.5rem !important;
+    left: 5rem !important;
+  }
+  #i{
+    top: 30.2rem !important;
+    left: 5rem !important;
+  }
+  #pro{
+    top:35.8rem !important;
+    left: 5rem !important;
+  }
+  #h{
+    top: 42.2rem !important;
+    left: 5rem !important;
+  }
+  .fa-comment-alt{
+  font-size: 2rem !important;
+  left: 80% !important;
+  top: 5px !important;
+  margin-bottom: 1rem !important;
+  }
+  #m2{
+    top: 6rem !important;
+    left: 6rem !important;
+  }
+  .p2{
+  top:10rem !important;
+  left: 15px !important;
+  }
+  #cel2{
+    top: 11rem !important;
+    left: 6rem !important;
+  }
+  .zap{
+    top: 13rem !important;
+    
+  }
+  .fa-share-alt{
+    top: 13rem !important;
+    left: 15px !important;
+  }
+  .fa-question-circle{
+    top: 13rem !important;
+    left: 15px !important;
+  }
+}
+
+#header{
+  background-color: #128C7E;
+  color: #FFF;
+}
+
+#title{
+  font-size: 25px;
+}
+
+.fa-search{
+  position: absolute;
+  left: 91%;
+  font-size: 25px;
+}
+.fa-search:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+.fa-ellipsis-v{
+  position: absolute;
+  left: 98%;
+  font-size: 25px;
+  z-index: 1;
+}
+.fa-ellipsis-v:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+#camera{
+  display: block;
+  margin-top: 20px;
+  font-size: 25px;
+}
+#camera:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+.c{
+  margin-left: 5%;
+  font-size: 20px;
+  font-size: 18px;
+}
+.c:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,1);
+}
+.s{
+  margin-left: 35%;
+  font-size: 18px;
+}
+.s:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+.ca{
+  margin-left: 40%;
+  font-size: 18px;
+}
+.ca:hover{
+  color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+#main{
+  background: #121220;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.p{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+#cel{
+  position: absolute;
+  top: 10.5rem;
+  left: 9rem;
+}
+
+#lu{
+  position: absolute;
+  top: 20rem;
+  left: 9rem;
+}
+
+#ala{
+  position: absolute;
+  top: 28.5rem;
+  left: 9rem;
+}
+
+#m{
+  position: absolute;
+  top: 39rem;
+  left: 9rem;
+}
+
+#i{
+  position: absolute;
+  top: 48rem;
+  left: 9rem;
+}
+
+#pro{
+  position: absolute;
+  top: 57.2rem;
+  left: 9rem;
+}
+
+#h{
+  position: absolute;
+  top: 67rem;
+  left: 9rem;
+}
+
+.fa-comment-alt{
+  position: relative;
+  font-size: 4rem;
+  top: 50rem;
+  left: 80%;
+  margin-bottom: 52rem;
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: #129D7E;
+  z-index: 1;
+}
+
+.fa-comment-alt:hover{
+ color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+
+.sidebar{
+  width: 20rem;
+  height: 100vh;
+  background: black;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  right: -20rem;
+  transition: all 1s; 
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+}
+.sidebar:hover{
+  width: 70vw;
+}
+
+ .sidebar.show-menu{
+  right: 0;
+}
+.sidebar1{
+  width: 15rem;
+  height: 50vh;
+  background: black;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  right: -20rem;
+  transition: all 0.7s; 
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+ .sidebar1.show-menu{
+  right: 0;
+}
+
+.sidebar1 > #pontos > ul{
+  list-style-type: none;
+}
+
+
+li:hover{
+    color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+
+#m2{
+  position: absolute;
+  left: 10rem;
+  top: 8rem;
+}
+.profile2{
+  margin-left: 25px;
+}
+.profile2:hover{
+    color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+
+.p1{
+  position: absolute;
+  left: 15px;
+}
+
+.p2{
+  position: absolute;
+  top:15rem;
+  left: 15px;
+}
+
+#cel2{
+  position: absolute;
+  left: 10rem;
+  top: 18rem;
+}
+.zap{
+  position: relative;
+  top: 25rem;
+  left: 25px;
+}
+
+.zap:hover{
+    color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+
+.fa-share-alt{
+  position: relative;
+  top: 25rem;
+  left: 10px;
+}
+.fa-share-alt:hover{
+    color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
+
+.fa-question-circle{
+  position: relative;
+  top: 25rem;
+  left: 10px;
+}
+
+.fa-question-circle:hover{
+    color: #2BFF83;
+  text-shadow: 0px 5px 15px rgba(0,255,0,1);
+}
