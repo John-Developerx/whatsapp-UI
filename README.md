@@ -7,6 +7,10 @@
 
 # Project
 
+<p> https://john-developerx.github.io/whatsapp-UI/ </p>
 
+<h2> Technologies used </h2>
+
+<p> JavaScript | HTML5 | CSS3. </p>
 
 
